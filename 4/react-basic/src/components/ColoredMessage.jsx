@@ -1,5 +1,5 @@
 export const ColoredMessage = (props) => {
-  // Propsを分割代入
+  // Props를 분할 대입
   const { color, children } = props;
 
   const contentStyle = {

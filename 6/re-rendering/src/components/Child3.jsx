@@ -6,7 +6,7 @@ const style = {
 };
 
 export const Child3 = memo(() => {
-  console.log("Child3 レンダリング ");
+  console.log("Child3 렌더링");
 
   return (
     <div style={style}>

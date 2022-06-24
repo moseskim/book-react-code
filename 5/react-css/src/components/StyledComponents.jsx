@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const StyledComponents = () => {
   return (
     <SContainer>
-      <STitle>styled componentsです</STitle>
-      <SButton>ボタン</SButton>
+      <STitle>styled components입니다</STitle>
+      <SButton>버튼</SButton>
     </SContainer>
   );
 };

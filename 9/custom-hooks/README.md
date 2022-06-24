@@ -1,14 +1,14 @@
 
-# 9章 カスタムフック
+# 9장 사용자 정의 훅
 
-- 9-3 カスタムフックの実行までで実装した最終形のソースを配置しています。復習に活用してください。
-- APIの実行先は実際には存在しないため、確認する際は固定で取得想定のデータをStateに設定する等して確認してください。
-- create-react-appで作成しています
-- yarnを使用しています
+- 9-3 사용자 정의 훅 실행까지 구현한 최종 소스 코드입니다. 복습에 활용하기 바랍니다.
+- API 실행 대상은 실제로 존재하지 않으므로, 가상의 데이터를 State에 설정하는 등으로 대응한 뒤 확인하기 바랍니다.
+- create-react-app으로 작성했습니다.
+- yarn을 사용했습니다.
 
-## 確認方法
+## 확인 방법
 
-- create-react-appで作成しています。ローカルで動作させたい場合はクローンしてご利用ください。
-- また、以下のリンクからCodeSandboxで確認することもできます
+- create-react-app로 작성했습니다. 로컬에서 동작을 확인할 때는 클론해서 이용하기 바랍니다.
+- 다음 CodeSandbox 링크에서도 확인할 수 있습니다.
 
-[https://codesandbox.io/s/react-book-9-custom-hooks-uy5ii](https://codesandbox.io/s/react-book-9-custom-hooks-uy5ii)
+[https://codesandbox.io/s/react-book-9-custom-hooks-6z08vo](https://codesandbox.io/s/react-book-9-custom-hooks-6z08vo)

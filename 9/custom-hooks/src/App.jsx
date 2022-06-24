@@ -1,21 +1,21 @@
 import { useFetchUsers } from "./hooks/useFetchUsers";
 
 export const App = () => {
-  // カスタムフックの使用
-  // 関数を実行し返却値を分割代入で受け取る
+  // 사용자 정의 훅 사용
+  // 함수를 실행하고 반환값을 분할 대입으로 전달한다
   const { userList, isLoading, isError, onClickFetchUser } = useFetchUsers();
 
   return (
     <div>
-      <button onClick={onClickFetchUser}>ユーザー取得</button>
-      {/* エラーの場合はエラーメッセージを表示 */}
-      {isError && <p style={{ color: "red" }}>エラーが発生しました</p>}
-      {/* ローディング中は表示を切り替える */}{" "}
+      <button onClick={onClickFetchUser}>사용자 정보 얻기</button>
+      {/* 에러 발생 시 에러 메시지 표시 */}
+      {isError && <p style={{ color: "red" }}>에러가 발생했습니다</p>}
+      {/* 로딩 중에는 표시를 전환한다 */}{" "}
       {isLoading ? (
-        <p>データ取得中です</p>
+        <p>데이터를 얻고 있습니다</p>
       ) : (
         userList.map((user) => (
-          <p key={user.id}>{`${user.id}:${user.name}(${user.age} 歳)`}</p>
+          <p key={user.id}>{`${user.id}:${user.name}(${user.age}세)`}</p>
         ))
       )}
     </div>

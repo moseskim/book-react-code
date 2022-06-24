@@ -12,11 +12,11 @@ const style = {
   alignItems: "center",
 };
 
-// シンプルになった!
+// 간단해진다
 export const Card = () => {
   return (
     <div style={style}>
-      <p>山田太郎</p>
+      <p>야마다 타로</p>
       <EditButton />
     </div>
   );
