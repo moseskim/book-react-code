@@ -9,15 +9,15 @@ const style = {
 };
 
 export const Child1 = memo((props) => {
-  console.log("Child1 レンダリング ");
+  console.log("Child1 렌더링");
 
-  // Propsから関数を展開(分割代入)
+  // Props에서 함수를 전개(분할 대입)
   const { onClickReset } = props;
 
   return (
     <div style={style}>
       <p>Child1</p>
-      <button onClick={onClickReset}>リセット</button>
+      <button onClick={onClickReset}>리셋</button>
       <Child2 />
       <Child3 />
     </div>

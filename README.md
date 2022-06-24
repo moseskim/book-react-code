@@ -1,40 +1,40 @@
-# モダンJavaScriptの基本から始めるReact実践の教科書（最新ReactHooks対応）
+# 모던 JavaScript 기본에서 시작하는 React 실전 교과서(최신 ReactHooks 대응)
 
-本書をご購入いただき誠にありがとうございます。
+이 책을 구입해주셔서 감사합니다.
 
-- ダウンロード可能なサンプルファイルを配置しています
-- 章毎のフォルダ内にプロジェクトソースを置いているので参考にしてください
+- 다운로드 가능한 샘플 파일을 제공합니다.
+- 프로젝트 소스는 각 장별로 분리되어 있으므로 참고하기 바랍니다.
 
-## サンプルファイル目次
+## 샘플 파일 목차
 
-- [3章 JavaScriptでのDOM操作](./3/README.md)
-- [4章 Reactの基本](./4/react-basic)
-- [5章 ReactとCSS](./5/react-css)
-- [6章 再レンダリングの仕組みと最適化](./6/re-rendering)
-- [7章 グローバルなState管理](./7/global-state)
-- [8章 ReactとTypeScript](./8/typescript)
-- [9章 カスタムフック](./9/custom-hooks)
-- [React×TypeScript実践演習](./appendix/react-typescript-app)
+- [3장 JavaScript에서의 DOM 조작](./3/README.md)
+- [4장 React 기본](./4/react-basic)
+- [5장 React와 CSS](./5/react-css)
+- [6장 재 렌더링 구조와 최적화](./6/re-rendering)
+- [7장 글로벌 State 관리](./7/global-state)
+- [8장 React와 TypeScript](./8/typescript)
+- [9장 사용자 정의 훅](./9/custom-hooks)
+- [React × TypeScript 실전 연습](./appendix/react-typescript-app)
 
-## ハッシュタグ
+## 해시 태그 [삭제??]
 
-- [#挫折しないReact本](https://twitter.com/search?q=%23%E6%8C%AB%E6%8A%98%E3%81%97%E3%81%AA%E3%81%84React%E6%9C%AC) のハッシュタグで学んだ感想をシェアしていただけると非常に嬉しいです。
+- [#좌절하지않는React](https://twitter.com/search?q=%23%E6%8C%AB%E6%8A%98%E3%81%97%E3%81%AA%E3%81%84React%E6%9C%AC) 해시 태그로 학습 소감을 남겨주시면 감사하겠습니다.
 
-## 正誤表
-Webサイトで「正誤表」をご確認ください。最新の正誤情報をサポートページに掲載しております。
+## 정오표
 
-- 本書サポートページ URL  [https://isbn2.sbcr.jp/10722/](https://isbn2.sbcr.jp/10722/)
+웹사이트에서 '정오표'를 확인해 주시기 바랍니다. 최신 정보는 지원 페이지를 참조해 주시기 바랍니다.
+
+- 이 책의 지원 페이지 URL [https://isbn2.sbcr.jp/10722/](https://isbn2.sbcr.jp/10722/) (일본어)
 
 ## Udemy
 
-Udemyでは２つのReactコースを出しており、動画教材ならではの学習ができます。（コーディングの順番や口頭での補足説明等）
+Udemy에서는 2개의 React 강좌를 진행 중이며, 동영상으로만 가능한 학습을 할 수 있습니다(코딩 순서나 구두 보충 설명 등).
 
-レビューで受講生の感想も見ることができるので、是非以下のリンクよりご覧ください。
+리뷰에서 수강생들의 소감도 확인할 수 있습니다.
 
-[https://freelance-jak.com/react_coupon/](https://freelance-jak.com/react_coupon/)
+[https://freelance-jak.com/react_coupon/](https://freelance-jak.com/react_coupon/) (일본어)
 
 
 ---
 
-©2021 Reach Script Inc.  
-本書の内容は著作権法上の保護を受けています。著作権者・出版権者の文書による許諾を得ず に、本書の一部または全部を無断で複写・複製・転載することは禁じられております。
+©2021 Reach Script Inc. 이 책의 내용은 저작권법 상의 보호를 받습니다. 저작권자 및 출판권자에게 문서를 통한 권한을 득하지 않은 이 책의 일부 및 전체의 무단 복사, 복제 전재를 금합니다.

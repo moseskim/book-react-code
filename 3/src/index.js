@@ -1,50 +1,50 @@
-// 追加ボタン押下時に実行する関数
+// 추가 버튼 클릭 시 실행하는 함수
 const onClickAdd = () => {
-  // テキストボックスのElementを取得
+  // 텍스트 박스의 Element를 얻는다
   const textEl = document.getElementById("add-text");
 
-  // テキストボックスの値を取得
+  // 텍스트 박스의 값을 얻는다
   const text = textEl.value;
 
-  // テキストボックスを初期化(空白に)
+  // 텍스트 박스를 초기화한다(공백)
   textEl.value = "";
 
-  // liタグ生成
+  // li 태그 생성
   const li = document.createElement("li");
 
-  // divタグ生成
+  // div 태그 생성
   const div = document.createElement("div");
 
-  // pタグ生成(テキストボックスの文字を設定)
+  // p 태그 생성(텍스트 박스의 문자 설정)
   const p = document.createElement("p");
   p.textContent = text;
 
-  // buttonタグ生成(ラベルは[削除])
+  // button 태그 생성(라벨: [삭제])
   const button = document.createElement("button");
-  button.textContent = "削除";
+  button.textContent = "삭제";
 
-  // ボタン押下時に行を削除する処理
+  // 버튼 클릭 시, 행 삭체 처리
   button.addEventListener("click", () => {
-    // 削除対象の行(li)を取得
-    // closestは親要素に一致する文字列を探すメソッド
+    // 삭제 대상 행(li)을 얻는다
+    // closest는 부모 요소와 일치하는 문자열을 찾는 메서드
     const deleteTarget = button.closest("li");
 
-    // ulタグ配下から上記で特定した行を削除
+    // ul 태그 아래에서 위에서 특정한 행을 삭제한다
     document.getElementById("memo-list").removeChild(deleteTarget);
   });
 
-  // divタグ配下にpタグとbuttonタグを設定
+  // div 태그 아래에 p 태그와 button 태그 설정
   div.appendChild(p);
   div.appendChild(button);
 
-  // liタグ配下に上記のdivタグを設定
+  // li 태그 아래에 위 div 태그 설정
   li.appendChild(div);
 
-  // メモ一覧のリストに上記のliタグを設定
+  // 메모 목록 리스트에 위 li 태그 설정
   document.getElementById("memo-list").appendChild(li);
 };
 
-// [追加]ボタン押下時にonClickAdd関数を実行するよう登録
+// [추가] 버튼 클릭 시, onClickAdd 함수를 실행하도록 등록
 document
   .getElementById("add-button")
   .addEventListener("click", () => onClickAdd());

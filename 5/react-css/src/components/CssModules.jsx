@@ -3,8 +3,8 @@ import classes from "./CssModules.module.scss";
 export const CssModules = () => {
   return (
     <div className={classes.container}>
-      <p className={classes.title}>CSS Modulesです</p>
-      <button className={classes.button}>ボタン</button>
+      <p className={classes.title}>CSS Modules입니다</p>
+      <button className={classes.button}>버튼</button>
     </div>
   );
 };

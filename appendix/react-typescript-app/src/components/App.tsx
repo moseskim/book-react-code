@@ -4,27 +4,27 @@ import { MemoList } from "./MemoList";
 import { useMemoList } from "../hooks/useMemoList";
 
 export const App: FC = () => {
-  // カスタムフックからそれぞれ取得
+  // 사용자 정의 훅으로부터 각각 얻는다
   const { memos, addTodo, deleteTodo } = useMemoList();
-  // テキストボックスState
+  // 텍스트 박스 State
   const [text, setText] = useState<string>("");
 
-  // テキストボックス入力時に入力内容をStateに設定
+  // 텍스트 박스 입력 시 입력 내용을 State에 설정
   const onChangeText = (e: ChangeEvent<HTMLInputElement>) =>
     setText(e.target.value);
 
-  // [追加]ボタン押下時
+  // [추가] 버튼 클릭 시
   const onClickAdd = () => {
-    // カスタムフックのメモ追加ロジック実行
+    // 사용자 정의 훅의 메모 추가 로직 실행
     addTodo(text);
-    // テキストボックスを空に
+    // 텍스트 박스를 빈 칸으로
     setText("");
   };
 
-  // [削除]ボタン押下時(何番目が押されたかを引数で受け取る)
+  // [삭제] 버튼 클릭 시(몇 번째 버튼이 클릭되었는지 인수로 전달한다)
   const onClickDelete = useCallback(
     (index: number) => {
-      // カスタムフックのメモ削除ロジック実行
+      // 사용자 정의 훅의 메모 삭제 로직 실행
       deleteTodo(index);
     },
     [deleteTodo]
@@ -32,9 +32,9 @@ export const App: FC = () => {
 
   return (
     <div>
-      <h1>簡単メモアプリ</h1>
+      <h1>간단 메모 애플리케이션</h1>
       <input type="text" value={text} onChange={onChangeText} />
-      <SButton onClick={onClickAdd}>追加</SButton>
+      <SButton onClick={onClickAdd}>추가</SButton>
       <MemoList memos={memos} onClickDelete={onClickDelete} />
     </div>
   );
