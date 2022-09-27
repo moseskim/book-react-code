@@ -32,6 +32,6 @@ export const useFetchUsers = () => {
       .finally(() => setIsLoading(false));
   };
 
-  // まとめて返却したいのでオブジェクトに設定する
+  // 모아서 반환할 객체로 설정한다
   return { userList, isLoading, isError, onClickFetchUser };
 };
