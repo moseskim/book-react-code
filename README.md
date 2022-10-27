@@ -1,6 +1,6 @@
 # 모던 자바스크립트로 배우는 리액트 입문
 
-[<img src="https://github.com/moseskim/book-react-code/blob/main/images/cover.png" width="500px"/>](https://github.com/moseskim/book-react-code/blob/main/cover.png)
+[<img src="https://github.com/moseskim/book-react-code/blob/main/cover.png" width="500px"/>](https://github.com/moseskim/book-react-code/blob/main/cover.png)
 
 이 책을 구입해주셔서 감사합니다.
 
