@@ -1,5 +1,7 @@
 # 모던 자바스크립트로 배우는 리액트 입문
 
+[<img src="https://github.com/moseskim/book-react-code/blob/main/images/cover.png" width="500px"/>](https://github.com/moseskim/book-react-code/blob/main/cover.png)
+
 이 책을 구입해주셔서 감사합니다.
 
 - 다운로드 가능한 샘플 파일을 제공합니다.
@@ -7,18 +9,17 @@
 
 ## 샘플 파일 목차
 
-- [3장 JavaScript에서의 DOM 조작](./3/README.md)
-- [4장 React 기본](./4/react-basic)
-- [5장 React와 CSS](./5/react-css)
-- [6장 재 렌더링 구조와 최적화](./6/re-rendering)
+- 1장 모던 자바스크립트 기초
+- 2장 모던 자바스크립트 기능 익히기
+- [3장 자바 스크깁트에서 DOM 조작](./3/README.md)
+- [4장 리액트 기본](./4/react-basic)
+- [5장 리액트와 CSS](./5/react-css)
+- [6장 재렌더링 구조와 최적화](./6/re-rendering)
 - [7장 글로벌 State 관리](./7/global-state)
-- [8장 React와 TypeScript](./8/typescript)
+- [8장 리액트와 타입스크립트](./8/typescript)
 - [9장 사용자 정의 훅](./9/custom-hooks)
-- [React × TypeScript 실전 연습](./appendix/react-typescript-app)
+- [리액트 × 타입스크립트 실전 연습](./appendix/react-typescript-app)
 
-## 해시 태그 [삭제??]
-
-- [#좌절하지않는React](https://twitter.com/search?q=%23%E6%8C%AB%E6%8A%98%E3%81%97%E3%81%AA%E3%81%84React%E6%9C%AC) 해시 태그로 학습 소감을 남겨주시면 감사하겠습니다.
 
 ## 정오표
 
@@ -33,8 +34,3 @@ Udemy에서는 2개의 React 강좌를 진행 중이며, 동영상으로만 가�
 리뷰에서 수강생들의 소감도 확인할 수 있습니다.
 
 [https://freelance-jak.com/react_coupon/](https://freelance-jak.com/react_coupon/) (일본어)
-
-
----
-
-©2021 Reach Script Inc. 이 책의 내용은 저작권법 상의 보호를 받습니다. 저작권자 및 출판권자에게 문서를 통한 권한을 득하지 않은 이 책의 일부 및 전체의 무단 복사, 복제 전재를 금합니다.
